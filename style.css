@@ -45,6 +45,10 @@ h3 {
     list-style: none;
 }
 
+a {
+    color: black;
+}
+
 .recipelist li {
     text-align: center;
     color: #000000;
