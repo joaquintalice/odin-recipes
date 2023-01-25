@@ -221,8 +221,30 @@ ul li {
 
 /*-------------------------------------------------------------RESPONSIVE------------------------------------------------------------------------------------------*/
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 600px) {
     body {
-        width: 89rem;
+        width: 75rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    body {
+        width: 31rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    #bg-image {
+        width: 70rem;
+        height: auto;
+    }
+}
+@media screen and (max-width: 400px) {
+    .recipe-img {
+        width: 33rem;
+        padding-left: 0.5rem;
+    }
+}
+@media screen and (max-width: 400px) {
+    html {
+        font-size: 0.88rem;
     }
 }
