@@ -260,16 +260,15 @@ ul li {
         color: #000000;
     }
 
-    a {
-        width: 2rem;
-    }
+
     .main-img {
         width: 25rem;
         height: 13rem;
         margin: none;
     }
     li {
-        font-size: 1.6rem;
+        font-size: 1rem;
+        width: 20rem;
     }
     .head {
         padding-left: 0rem;
@@ -279,17 +278,26 @@ ul li {
         width: 25rem;
     }
     .ingredients {
-        width: 25rem;
+        max-width: 22rem;
+    }
+    ol {
+        width: 20rem;
+    }
+    ol li {
+        width: 18rem;
+    }
+    .head {
+        font-size: 2rem;
     }
 }
 
 
-@media (max-width:370px) {
+@media (max-width:367px) {
     html {
-        width: 28rem;
+        width: 25rem;
     }
     body {
-        max-width: 28rem;
+        max-width: 25rem;
         overflow-x: hidden !important;
         background-color: rgb(241, 223, 223);
     }
@@ -301,7 +309,7 @@ ul li {
         list-style: none;
     }
     ul {
-        width: 20rem;
+        width: 22rem;
         padding-left: 0;
     }
     .recipelist li {
@@ -309,28 +317,27 @@ ul li {
         color: #000000;
     }
 
-    a {
-        width: 2rem;
-    }
     .main-img {
         width: 25rem;
         height: 13rem;
         margin: none;
     }
     li {
-        font-size: 1.6rem;
+        font-size: 1rem;
     }
     .head {
         padding-left: 0rem;
         padding-top: 0rem;
+        font-size: 2rem;
     }
     .recipe-img {
         width: 25rem;
     }
     .ingredients {
-        width: 25rem;
+        width: 22rem;
+        font-size: 1rem;
     }
     .buttons {
-        width: 28rem;
+        width: 22rem;
     }
 }
