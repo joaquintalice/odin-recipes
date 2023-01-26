@@ -260,7 +260,6 @@ ul li {
         color: #000000;
     }
 
-
     .main-img {
         width: 25rem;
         height: 13rem;
@@ -280,11 +279,9 @@ ul li {
     .ingredients {
         max-width: 22rem;
     }
-    ol {
-        width: 20rem;
-    }
+
     ol li {
-        width: 18rem;
+        width: 28rem;
     }
     .head {
         font-size: 2rem;
@@ -292,14 +289,18 @@ ul li {
 }
 
 
-@media (max-width:367px) {
+@media (max-width:360px) {
     html {
-        width: 25rem;
+        width: 22.5rem;
     }
     body {
-        max-width: 25rem;
+        max-width: 22.5rem;
         overflow-x: hidden !important;
         background-color: rgb(241, 223, 223);
+    }
+
+    .description {
+        width: 19rem;
     }
 
     .recipelist ul {
@@ -309,7 +310,7 @@ ul li {
         list-style: none;
     }
     ul {
-        width: 22rem;
+        width: 20rem;
         padding-left: 0;
     }
     .recipelist li {
@@ -318,12 +319,13 @@ ul li {
     }
 
     .main-img {
-        width: 25rem;
+        width: 15rem;
         height: 13rem;
         margin: none;
     }
     li {
         font-size: 1rem;
+        width: 17rem;
     }
     .head {
         padding-left: 0rem;
@@ -338,6 +340,12 @@ ul li {
         font-size: 1rem;
     }
     .buttons {
-        width: 22rem;
+        width: 17rem;
+    }
+    ol li {
+        width: 16rem;
+    }
+    .steplist {
+        width: 17rem;
     }
 }
