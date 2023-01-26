@@ -1,10 +1,11 @@
 body {
+    background-color: rgb(241, 223, 223);
     padding: 2em;
     font-family: "Lucida Console", "Courier New", monospace;
     font-size: 1rem;
     margin: 0%;
     color: rgb(0, 0, 0);
-    width: 120rem;
+    max-width: auto;
     overflow-x: hidden;
 }
 
@@ -158,14 +159,24 @@ ul img {
     margin: 0.3rem;
 }
 
+.steplist {
+    padding-bottom: 1rem;
+}
+
 .description {
     font-size: 1rem;
     float: left;
+    padding-bottom: 2rem;
+}
+
+h3 {
+    padding-bottom: 1rem;
 }
 
 .ingredients {
     width: 30rem;
     margin: auto;
+    padding-bottom: 2rem ;
 }
 
 .steplist {
@@ -180,6 +191,10 @@ ul li {
     margin-top: 0.5rem;
 }
 
+.recipe-img {
+    padding-top: 1.3rem;
+    padding-bottom: 1.3rem;
+}
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
@@ -187,6 +202,7 @@ ul li {
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
 /*animacion para background*/
 
+/* ------------------------------
 #bg-image {
     position: fixed;
 
@@ -219,44 +235,47 @@ ul li {
         transform-origin: left;
     }
 }
-
+-----------------*/
 /*-------------------------------------------------------------RESPONSIVE------------------------------------------------------------------------------------------*/
 
-@media (max-width:500px) {
+@media (max-width:567px) {
     body {
-        max-width:50rem;
-        display: flexbox;
-        justify-content: center;
+        max-width: 70rem;
+        overflow-x: hidden !important;
+        background-color: rgb(241, 223, 223);
+    }
+
+    .recipelist ul {
+        text-align: left;
+        display: inline-block;
+        color: rgb(0, 0, 0);
+        list-style: none;
+    }
+    ul {
+        width: 25rem;
+        padding-left: 0;
+    }
+    .recipelist li {
+        text-align: center;
+        color: #000000;
+    }
+
+    a {
+        width: 2rem;
+    }
+    .main-img {
+        width: 25rem;
+        height: 13rem;
+        margin: none;
+    }
+    li {
+        font-size: 1.6rem;
+    }
+    .head {
+        padding-left: 0rem;
+        padding-top: 0rem;
     }
     .recipe-img {
-        max-width: 25rem;
-    }
-    .recipe-image-container {
-        display: flex;
-        justify-content: left;
-        margin-top: 1.3rem;
-        margin-bottom: 1.3rem;
-    }
-    .description {
         width: 25rem;
     }
-    h3 {
-        width: 25rem;
-        margin-bottom: 1.3rem;
-    }
-    .ingredients {
-        width: 50rem;
-        margin-top: 1.5rem;
-        margin-bottom: 2rem;
-    }
-    h1 {
-        width: 25rem;
-    }
-    .steplist {
-        width: 25rem;
-    }
-    .buttons {
-        width: 25rem;
-    }
-    
 }
