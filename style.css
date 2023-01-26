@@ -175,7 +175,7 @@ h3 {
 .ingredients {
     width: 30rem;
     margin: auto;
-    padding-bottom: 2rem ;
+    padding-bottom: 2rem;
 }
 
 .steplist {
@@ -194,6 +194,7 @@ ul li {
     padding-top: 1.3rem;
     padding-bottom: 1.3rem;
 }
+
 /*-------------------------------------------------------------------------------------------------------------------------------------------------------*/
 
 
@@ -304,11 +305,12 @@ ul li {
         color: rgb(0, 0, 0);
         list-style: none;
     }
+
     ul {
         width: auto;
         padding-left: 0;
     }
-    
+
     .recipelist img {
         width: 17rem;
     }
@@ -323,30 +325,39 @@ ul li {
         height: auto;
         margin: none;
     }
+
     li {
         font-size: 1rem;
         width: auto;
     }
+
     .head {
         padding-left: 0rem;
         padding-top: 0rem;
         font-size: auto;
     }
+
     .recipe-img {
-        width: 22rem ;
+        width: 22rem;
     }
+
     .ingredients {
         font-size: auto;
+        width: auto;
     }
+
     .buttons {
         width: auto;
     }
+
     ol li {
         width: auto;
     }
+
     .steplist {
         width: auto;
     }
+
     .head {
         font-size: 2rem;
     }
