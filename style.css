@@ -1,5 +1,4 @@
 body {
-    background-color: rgb(241, 223, 223);
     padding: 2em;
     font-family: "Lucida Console", "Courier New", monospace;
     font-size: 1rem;
@@ -293,7 +292,6 @@ ul li {
     body {
         max-width: auto;
         overflow-x: hidden !important;
-        background-color: rgb(241, 223, 223);
     }
 
     .description {
@@ -338,7 +336,6 @@ ul li {
         width: 22rem ;
     }
     .ingredients {
-        width: auto;
         font-size: auto;
     }
     .buttons {
@@ -351,6 +348,6 @@ ul li {
         width: auto;
     }
     .head {
-        font-size: 3rem;
+        font-size: 2rem;
     }
 }
